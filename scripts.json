@@ -1,0 +1,420 @@
+{
+  "repository": {
+    "name": "Muqa Lua Repo",
+    "description": "Collection of Lua scripts for Team Fortress 2 Lmaobox",
+    "last_updated": "2024-12-04",
+    "author": "Muqa"
+  },
+  "scripts": [
+    {
+      "name": "AA Arrows",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Displays anti-aim direction arrows with customizable colors",
+      "filename": "aa arrows.lua",
+      "tags": ["visuals", "anti-aim"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Anti-Aim",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Randomizes anti-aim angles",
+      "filename": "Antiaim.lua",
+      "tags": ["anti-aim"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Auto Airblast",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Automatically airblasts incoming projectiles",
+      "filename": "auto ariblast.lua",
+      "tags": ["automation", "pyro"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Auto Backstab",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Automatically backstabs nearby enemies",
+      "filename": "auto backstab.lua",
+      "tags": ["automation", "spy"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Auto Medic",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Automatically calls for medic when health is low",
+      "filename": "auto medic.lua",
+      "tags": ["automation", "utility"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Auto Switch to Medigun",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Automatically switches to medigun",
+      "filename": "Auto switch to medigun.lua",
+      "tags": ["automation", "medic"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Basic Auto Dead Ringer",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Automatically activates Dead Ringer based on certain conditions",
+      "filename": "basic autodeadringer.lua",
+      "tags": ["automation", "spy"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Binds",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Displays active binds and their states",
+      "filename": "Binds.lua",
+      "tags": ["utility", "visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Blast Jumping Condition Indicator",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Shows when player is blast jumping",
+      "filename": "blast jumping cond indicator.lua",
+      "tags": ["visuals", "utility"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Boring Lua",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Collection of various features and automations",
+      "filename": "boringlua.lua",
+      "tags": ["utility", "automation"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Closet Eww",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Sets priority on low HP players",
+      "filename": "closetewwww.lua",
+      "tags": ["utility"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Cool ESP",
+      "author": "Muqa",
+      "version": "1.0.0",
+      "description": "Advanced ESP with customizable features",
+      "filename": "cool esp.lua",
+      "tags": ["visuals", "esp"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Cool Functions",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Collection of useful functions for other scripts",
+      "filename": "cool functions.lua",
+      "tags": ["utility", "library"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Custom Team Based Colors",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Customizable team-based colors",
+      "filename": "custom team based colours.lua",
+      "tags": ["visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "CVar",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Sets certain console variables",
+      "filename": "cvar.lua",
+      "tags": ["utility"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "ESP",
+      "author": "Muqa",
+      "version": "1.0.0",
+      "description": "Customizable ESP system",
+      "filename": "Esp.lua",
+      "tags": ["visuals", "esp"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Fine Shot M8",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Automatically says 'Fine Shot' voice line",
+      "filename": "fine shot m8.lua",
+      "tags": ["fun", "automation"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Flare Gun Jump",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Assists with flare gun jumping",
+      "filename": "flareGunJump.lua",
+      "tags": ["movement", "pyro"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Fog Modulation",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Customizable fog settings",
+      "filename": "Fog modulation.lua",
+      "tags": ["visuals"],
+      "dependencies": ["ImMenu"],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Glow Effect",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Animated glow effect",
+      "filename": "glow effect.lua",
+      "tags": ["visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Gradient Example",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Example of gradient drawing",
+      "filename": "gradient example.lua",
+      "tags": ["visuals", "example"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Gun Spy Bot",
+      "author": "Unknown",
+      "version": "2.4.0",
+      "description": "Automated spy features",
+      "filename": "gunspybot.lua",
+      "tags": ["automation", "spy"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Misc Tools",
+      "author": "Muqa",
+      "version": "1.0.0",
+      "description": "Collection of various utility features",
+      "filename": "Misc Tools.lua",
+      "tags": ["utility", "misc"],
+      "dependencies": ["ImMenu"],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Money Printer",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Automated buyback system",
+      "filename": "money printer.lua",
+      "tags": ["automation"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Neverlose Watermark",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Neverlose-style watermark",
+      "filename": "neverlose watermark.lua",
+      "tags": ["visuals", "watermark"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Noisemaker",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Automated noisemaker usage",
+      "filename": "noisemaker.lua",
+      "tags": ["automation", "fun"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Offscreen Info",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Shows information about offscreen players",
+      "filename": "Offscreen info.lua",
+      "tags": ["visuals", "esp"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Player Trail Gradient",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Gradient player trail effect",
+      "filename": "Player_trail_gradient.lua",
+      "tags": ["visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Player Trail",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Player trail effect",
+      "filename": "Player_trail.lua",
+      "tags": ["visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Priority Hitsounds",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Custom hitsounds for priority targets",
+      "filename": "priority hitsounds.lua",
+      "tags": ["sound", "utility"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Projectile Camera 2",
+      "author": "Unknown",
+      "version": "2.0.0",
+      "description": "Enhanced projectile camera view",
+      "filename": "projectile cam 2.lua",
+      "tags": ["visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Projectile Camera",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Original projectile camera view",
+      "filename": "projectile camera.lua",
+      "tags": ["visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Projectile ESP",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "ESP for projectiles",
+      "filename": "projectile esp.lua",
+      "tags": ["visuals", "esp"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Release Misc Tools",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Released version of misc tools",
+      "filename": "Release misc tools.lua",
+      "tags": ["utility", "misc"],
+      "dependencies": ["ImMenu"],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Scope Lines",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Custom scope lines",
+      "filename": "scope lines.lua",
+      "tags": ["visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "SEOwnedDE ESP",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Advanced ESP system",
+      "filename": "SEOwnedDE esp.lua",
+      "tags": ["visuals", "esp"],
+      "dependencies": ["ImMenu"],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Skeleton ESP",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Skeleton outline ESP",
+      "filename": "skeleton esp.lua",
+      "tags": ["visuals", "esp"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Spy Exploit",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Spy movement exploit",
+      "filename": "spy_exploit.lua",
+      "tags": ["movement", "spy"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Tracers",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Hit tracers with customizable settings",
+      "filename": "tracers.lua",
+      "tags": ["visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Trimping Helper",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Assists with demoman trimping",
+      "filename": "trimping helper.lua",
+      "tags": ["movement", "demoman"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    },
+    {
+      "name": "Wallstuck Indicator",
+      "author": "Unknown",
+      "version": "1.0.0",
+      "description": "Shows when player is stuck in walls",
+      "filename": "wallstuck-indicator.lua",
+      "tags": ["utility", "visuals"],
+      "dependencies": [],
+      "last_updated": "2024-12-04"
+    }
+  ]
+}
