@@ -229,7 +229,7 @@
     {
       "name": "Misc Tools",
       "author": "Muqa",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Collection of various utility features",
       "filename": "Misc Tools.lua",
       "tags": ["utility", "misc"],
